@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Red', 'green', 'leftgreen', 'leftred', 'speed', 'yellow']
+
+roboflow:
+  workspace: dankook-university-agccf
+  project: morai
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dankook-university-agccf/morai/dataset/5

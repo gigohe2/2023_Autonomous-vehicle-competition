@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="shark" type="yolo_run.py"   name="yolo_run" output="screen"/>
+    <node pkg="shark" type="lidar_callback.py"   name="lidar_callback" output="screen"/>
+    <node pkg="shark" type="post_processing.py"   name="post_processing" output="screen"/>
+    <node pkg="shark" type="morai_gps_drive_shark.py"   name="morai_gps_drive_shark" output="screen"/>
+    <!-- <node pkg="shark" type="morai_gps_drive_shark.py" name="gps_drive" output="screen" /> -->
+
+</launch> 
